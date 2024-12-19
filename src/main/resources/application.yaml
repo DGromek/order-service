@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: OrderServiceApp
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/order-service-db}
+    password: ${POSTGRES_JDBC_USER:admin}
+    username: ${POSTGRES_JDBC_PASSWORD:admin}
+    platform: postgres
+    driverClassName: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+
