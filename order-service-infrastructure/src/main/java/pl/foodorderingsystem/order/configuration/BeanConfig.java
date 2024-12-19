@@ -1,4 +1,4 @@
-package pl.foodorderingsystem.order;
+package pl.foodorderingsystem.order.configuration;
 
 import jakarta.validation.Validator;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package pl.foodorderingsystem.order;
+package pl.foodorderingsystem.order.adapter;
 
 import lombok.Data;
 import org.springframework.context.annotation.Primary;
