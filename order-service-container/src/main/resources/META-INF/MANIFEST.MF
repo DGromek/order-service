@@ -1,1 +1,1 @@
-Main-Class: pl.foodorderingsystem.order.container.OrderServiceApplication
+Main-Class: pl.foodorderingsystem.order.OrderServiceApplication
