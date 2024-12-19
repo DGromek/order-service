@@ -1,4 +1,4 @@
-package pl.foodorderingsystem.order.jpa;
+package pl.foodorderingsystem.order.adapter.persistence.jpa.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

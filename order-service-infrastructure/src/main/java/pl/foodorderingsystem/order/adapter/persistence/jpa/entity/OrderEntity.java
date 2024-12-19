@@ -1,4 +1,4 @@
-package pl.foodorderingsystem.order.jpa;
+package pl.foodorderingsystem.order.adapter.persistence.jpa.entity;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -16,7 +16,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 import org.hibernate.proxy.HibernateProxy;
-import pl.foodorderingsystem.order.domain.OrderStatus;
+import pl.foodorderingsystem.order.domain.model.OrderStatus;
 
 import java.time.LocalDateTime;
 import java.util.List;

@@ -1,4 +1,6 @@
-package pl.foodorderingsystem.order.domain;
+package pl.foodorderingsystem.order.in;
+
+import pl.foodorderingsystem.order.domain.model.Order;
 
 public interface OrderDomainService {
     Order createOrder(Order orderToSave);

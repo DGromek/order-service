@@ -1,10 +1,10 @@
-package pl.foodorderingsystem.order;
+package pl.foodorderingsystem.order.adapter;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.foodorderingsystem.order.domain.Order;
-import pl.foodorderingsystem.order.jpa.JpaOrderRepository;
-import pl.foodorderingsystem.order.jpa.OrderEntity;
+import pl.foodorderingsystem.order.domain.model.Order;
+import pl.foodorderingsystem.order.adapter.persistence.jpa.JpaOrderRepository;
+import pl.foodorderingsystem.order.adapter.persistence.jpa.entity.OrderEntity;
 import pl.foodorderingsystem.order.out.OrderRepository;
 
 @RequiredArgsConstructor

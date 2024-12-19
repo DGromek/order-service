@@ -1,11 +1,11 @@
-package pl.foodorderingsystem.order.dto;
+package pl.foodorderingsystem.order.domain.model;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
 import lombok.Data;
 
 @Data
-public class AddressDto {
+public class Address {
     @NotEmpty
     private final String street;
     @NotEmpty

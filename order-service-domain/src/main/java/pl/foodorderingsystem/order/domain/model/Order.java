@@ -1,9 +1,10 @@
-package pl.foodorderingsystem.order.domain;
+package pl.foodorderingsystem.order.domain.model;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import pl.foodorderingsystem.order.domain.exception.OrderDomainException;
 
 import java.time.LocalDateTime;
 import java.util.List;

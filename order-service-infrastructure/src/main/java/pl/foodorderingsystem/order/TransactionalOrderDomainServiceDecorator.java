@@ -4,8 +4,8 @@ import lombok.Data;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import pl.foodorderingsystem.order.domain.Order;
-import pl.foodorderingsystem.order.domain.OrderDomainService;
+import pl.foodorderingsystem.order.domain.model.Order;
+import pl.foodorderingsystem.order.in.OrderDomainService;
 
 @Service
 @Primary

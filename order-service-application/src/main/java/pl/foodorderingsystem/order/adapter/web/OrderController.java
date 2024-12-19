@@ -1,4 +1,4 @@
-package pl.foodorderingsystem.order;
+package pl.foodorderingsystem.order.adapter.web;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pl.foodorderingsystem.order.domain.Order;
-import pl.foodorderingsystem.order.domain.OrderDomainService;
-import pl.foodorderingsystem.order.dto.OrderDto;
-import pl.foodorderingsystem.order.dto.OrderDtoToOrderMapper;
+import pl.foodorderingsystem.order.domain.model.Order;
+import pl.foodorderingsystem.order.in.OrderDomainService;
+import pl.foodorderingsystem.order.adapter.web.dto.OrderDto;
+import pl.foodorderingsystem.order.adapter.web.dto.OrderDtoToOrderMapper;
 
 @RestController
 @RequiredArgsConstructor

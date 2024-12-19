@@ -1,10 +1,10 @@
-package pl.foodorderingsystem.order;
+package pl.foodorderingsystem.order.adapter;
 
 import org.mapstruct.AfterMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;
-import pl.foodorderingsystem.order.domain.Order;
-import pl.foodorderingsystem.order.jpa.OrderEntity;
+import pl.foodorderingsystem.order.domain.model.Order;
+import pl.foodorderingsystem.order.adapter.persistence.jpa.entity.OrderEntity;
 
 @Mapper
 public interface OrderToOrderEntityMapper {

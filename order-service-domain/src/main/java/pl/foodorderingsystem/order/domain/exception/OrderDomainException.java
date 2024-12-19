@@ -1,4 +1,4 @@
-package pl.foodorderingsystem.order.domain;
+package pl.foodorderingsystem.order.domain.exception;
 
 public class OrderDomainException extends RuntimeException {
 

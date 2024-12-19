@@ -1,8 +1,11 @@
-package pl.foodorderingsystem.order.domain;
+package pl.foodorderingsystem.order.in;
+
+import pl.foodorderingsystem.order.domain.exception.OrderDomainException;
+import pl.foodorderingsystem.order.domain.model.OrderStatus;
 
 import java.util.Arrays;
 
-public enum OrderStatusTransition {
+enum OrderStatusTransition {
 
     //Correct processing
     ORDER_VALIDATION(OrderStatus.NEW, OrderStatus.VALIDATED),
@@ -25,7 +28,7 @@ public enum OrderStatusTransition {
         this.next = next;
     }
 
-    public static void validateTransition(OrderStatus from, OrderStatus to) {
+    static void validateTransition(OrderStatus from, OrderStatus to) {
         boolean isTransactionValid = Arrays.stream(values)
                 .anyMatch(orderStatusTransition ->
                         orderStatusTransition.previous == from &&

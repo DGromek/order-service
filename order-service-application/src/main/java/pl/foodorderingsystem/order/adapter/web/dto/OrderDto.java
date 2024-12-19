@@ -1,9 +1,5 @@
-package pl.foodorderingsystem.order.dto;
+package pl.foodorderingsystem.order.adapter.web.dto;
 
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.fasterxml.jackson.databind.deser.std.UUIDDeserializer;
-import com.fasterxml.jackson.databind.ser.std.UUIDSerializer;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
